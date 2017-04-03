@@ -8,7 +8,7 @@ int main(){
 	 int T;  //the number of test case;
  	 scanf("%d",&T);
 	 while(T--){
-         vector<int> relVec[USER_NUM];
+         vector<int> relVec[USER_NUM];  //each user's friends
 		 bool relArr[USER_NUM][USER_NUM]={0};  //relationship array
 		 int numNewFri[USER_NUM]={0};  //the number of new friends of each user
 
